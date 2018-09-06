@@ -7,4 +7,3 @@ The #parrot method should have a default argument of "Squawk!".
 def parrot(phrase= "Squak!")
   puts "#{say}"
 end
-  
