@@ -4,7 +4,7 @@ The #parrot method should accept an argument of a string and both #puts out that
 
 The #parrot method should have a default argument of "Squawk!".
 
-def parrot(say= "Squak!")
+def parrot(phrase= "Squak!")
   puts "#{say}"
 end
   
