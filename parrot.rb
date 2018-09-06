@@ -4,6 +4,7 @@ The #parrot method should accept an argument of a string and both #puts out that
 
 The #parrot method should have a default argument of "Squawk!".
 
-def parrot (bird = "Pretty bird!")
- puts "#{bird}"
+def parrot(parrot = "Squawk!")
+puts parrot
+return parrot
 end
